@@ -494,6 +494,9 @@ c c c c c c c c c c c c c c c .
 5 5 5 5 5 5 5 5 5 5 5 5 5 5 7 7 
 `
 }
+controller.menu.onEvent(ControllerButtonEvent.Pressed, function () {
+    game.showLongText("名字：" + name + "LV：" + info.score() + "HP：" + info.life(), DialogLayout.Left)
+})
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite.setImage(img`
 . . . . e e e e e e e e e . . . . 
@@ -626,6 +629,7 @@ e e e e e e e e e e e e e e e e e e e
 . . . . e e e e e . e e e e e . . . . 
 `)
 })
+let name = ""
 let mySprite: Sprite = null
 mySprite = sprites.create(img`
 . . . . . e e e e e e e e e . . . . . 
@@ -658,6 +662,8 @@ e e e e e e 5 5 5 5 5 5 e e e e e e e
 . . . . . . e e e . e e e e e . . . . 
 . . . . . e e e e . e e e e e e . . . 
 `, SpriteKind.Player)
+game.showLongText("为堕落的人类取名字", DialogLayout.Top)
+name = game.askForString("Name the fallen human")
 mySprite.setPosition(150, 80)
 controller.moveSprite(mySprite)
 info.setLife(20)
