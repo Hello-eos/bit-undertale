@@ -1,7 +1,11 @@
 {
     "name": "undertale",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "mouse": "*",
+        "jacdac-game": "*",
+        "sevenseg": "*",
+        "keyboard": "*"
     },
     "description": "",
     "files": [
