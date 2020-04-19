@@ -1,7 +1,11 @@
 {
-    "name": "undertale",
+    "name": "undertale for meowbit",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "mouse": "*",
+        "jacdac-game": "*",
+        "sevenseg": "*",
+        "keyboard": "*"
     },
     "description": "",
     "files": [
