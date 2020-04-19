@@ -1,3 +1,6 @@
+namespace SpriteKind {
+    export const 怪物 = SpriteKind.create()
+}
 namespace myTiles {
     //% blockIdentity=images._tile
     export const tile0 = img`
@@ -493,9 +496,128 @@ c c c c c c c c c c c c c c c .
 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 7 
 5 5 5 5 5 5 5 5 5 5 5 5 5 5 7 7 
 `
+    //% blockIdentity=images._tile
+    export const tile27 = img`
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+`
+    //% blockIdentity=images._tile
+    export const tile28 = img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`
+    //% blockIdentity=images._tile
+    export const tile29 = img`
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 3 3 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 3 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 3 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 3 3 
+`
+    //% blockIdentity=images._tile
+    export const tile30 = img`
+3 3 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+3 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+3 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+3 3 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+`
+    //% blockIdentity=images._tile
+    export const tile31 = img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+c c c c c c c c c c c c c c c c 
+`
+}
+controller.menu.onEvent(ControllerButtonEvent.Pressed, function () {
+    game.showLongText("名字：" + name + "LV：" + info.score() + "HP：" + info.life(), DialogLayout.Left)
+})
+function 弹幕 (速度: number, 角度: number, 来源: Sprite) {
+    projectile = sprites.createProjectileFromSprite(img`
+. . . . . . . . . . . . . . . . 
+. . . . . . 6 6 6 6 . . . . . . 
+. . . . 6 6 6 5 5 6 6 6 . . . . 
+. . . 7 7 7 7 6 6 6 6 6 6 . . . 
+. . 6 7 7 7 7 8 8 8 1 1 6 6 . . 
+. . 7 7 7 7 7 8 8 8 1 1 5 6 . . 
+. 6 7 7 7 7 8 8 8 8 8 5 5 6 6 . 
+. 6 7 7 7 8 8 8 6 6 6 6 5 6 6 . 
+. 6 6 7 7 8 8 6 6 6 6 6 6 6 6 . 
+. 6 8 7 7 8 8 6 6 6 6 6 6 6 6 . 
+. . 6 8 7 7 8 6 6 6 6 6 8 6 . . 
+. . 6 8 8 7 8 8 6 6 6 8 6 6 . . 
+. . . 6 8 8 8 8 8 8 8 8 6 . . . 
+. . . . 6 6 8 8 8 8 6 6 . . . . 
+. . . . . . 6 6 6 6 . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, 来源, 速度 * Math.cos(角度 / 57.3), 速度 * Math.sin(角度 / 57.3))
 }
 controller.left.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.setImage(img`
+    if (!(战斗中)) {
+        frisk.setImage(img`
 . . . . e e e e e e e e e . . . . 
 . . e e e e e e e e e e e e . . . 
 . e e e e e e e e e e e e e e . . 
@@ -526,9 +648,11 @@ e f f 5 5 5 5 5 e e e e e e e e e
 . . . . . . e e e e . . . . . . . 
 . . . . . e e e e e . . . . . . . 
 `)
+    }
 })
 controller.down.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.setImage(img`
+    if (!(战斗中)) {
+        frisk.setImage(img`
 . . . . . e e e e e e e e e . . . . . 
 . . . . e e e e e e e e e e e . . . . 
 . . . e e e e e e e e e e e e e . . . 
@@ -559,9 +683,11 @@ e e e e e e 5 5 5 5 5 5 e e e e e e e
 . . . . . . e e e . e e e e e . . . . 
 . . . . . e e e e . e e e e e e . . . 
 `)
+    }
 })
 controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.setImage(img`
+    if (!(战斗中)) {
+        frisk.setImage(img`
 . . . . e e e e e e e e e . . . . 
 . . . e e e e e e e e e e e e . . 
 . . e e e e e e e e e e e e e e . 
@@ -592,9 +718,11 @@ e e e e e e e e e 5 5 5 5 5 f f e
 . . . . . . . e e e e . . . . . . 
 . . . . . . . e e e e e . . . . . 
 `)
+    }
 })
 controller.up.onEvent(ControllerButtonEvent.Pressed, function () {
-    mySprite.setImage(img`
+    if (!(战斗中)) {
+        frisk.setImage(img`
 . . . . . e e e e e e e e e . . . . . 
 . . . . e e e e e e e e e e e . . . . 
 . . . e e e e e e e e e e e e e . . . 
@@ -625,9 +753,66 @@ e e e e e e e e e e e e e e e e e e e
 . . . . . e e e e . e e e . . . . . . 
 . . . . e e e e e . e e e e e . . . . 
 `)
+    }
 })
-let mySprite: Sprite = null
-mySprite = sprites.create(img`
+let flowey: Sprite = null
+let 战斗中 = 0
+let projectile: Sprite = null
+let frisk: Sprite = null
+let name = ""
+let 房间 = 1
+game.setDialogCursor(img`
+f f f f f . . f f f . f . f . . . f f f . 
+. . . f . . . f . f . f f . . . f . . . f 
+. . f . . . . f . f . f . . . . f f f f f 
+. f . . . . . f . f . f . . . . f . . . f 
+f f f f f . . f f f . f . . . . f . . . f 
+`)
+game.setDialogFrame(img`
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f 1 1 1 1 1 1 1 1 1 1 1 1 f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`)
+game.showLongText("为堕落的人类取名字", DialogLayout.Top)
+name = game.askForString("Name the fallen human")
+tiles.setTilemap(tiles.createTilemap(
+            hex`100010001a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a`,
+            img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`,
+            [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile24,myTiles.tile25,myTiles.tile26,myTiles.tile27,myTiles.tile28,myTiles.tile29,myTiles.tile30,myTiles.tile31],
+            TileScale.Sixteen
+        ))
+pause(2000)
+frisk = sprites.create(img`
 . . . . . e e e e e e e e e . . . . . 
 . . . . e e e e e e e e e e e . . . . 
 . . . e e e e e e e e e e e e e . . . 
@@ -658,33 +843,109 @@ e e e e e e 5 5 5 5 5 5 e e e e e e e
 . . . . . . e e e . e e e e e . . . . 
 . . . . . e e e e . e e e e e e . . . 
 `, SpriteKind.Player)
-mySprite.setPosition(150, 80)
-controller.moveSprite(mySprite)
-info.setLife(20)
-info.setScore(1)
 tiles.setTilemap(tiles.createTilemap(
-            hex`14000c000000000000000000000000000000000000000000000000080101010101010101010101090000000000080101010101010101010101010101010900000001010101010101010101010101010101010000000101010a020e120505051311020b01010100000001010a020e1204050505041311020b010100000001010c020f1404180519041510020d01010000000701010c020f031404150310020d01010101160000070101010101010101010101010101010117000000070101010101010101010101060000000000000000070101010101010101010600000000000000000000000000000000000000000000000000`,
+            hex`20000c00000000000000000000000000000000000000000000000000000000000000000000000008010101010101010101010109000000000000000000000000000100000008010101010101010101010101010101090000000000000000000001010100000101010101010101010101010101010101000000000000000000011b1b1b01000101010a020e120505051311020b010101000000000000000000011b1b1b010001010a020e1204050505041311020b0101000000000000000000011b1b1b010001010c020f1404180519041510020d0101000000000000000001011e1e1e01000701010c020f031404150310020d01010101010101010101010101010101010000070101010101010101010101010101010101010101010101010101010106000000070101010101010101010101060000000000000000000000000000000000000000070101010101010101010600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`,
             img`
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
-2 2 2 . . . . . . . . . . . . . 2 2 2 2 
-2 . . . . . . . . . . . . . . . . . 2 2 
-2 . . . . . . . . . . . . . . . . . 2 2 
-2 . . . . . . . . . . . . . . . . . 2 2 
-2 . . . . . . . . . . . . . . . . . 2 2 
-2 . . . . . . . . . . . . . . . . . 2 2 
-2 . . . . . . . . . . . . . . . . . . . 
-2 2 . . . . . . . . . . . . . . . . . . 
-2 2 2 . . . . . . . . . . . . . 2 2 2 2 
-2 2 2 2 . . . . . . . . . . . 2 2 2 2 2 
-2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 . . . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 . . . . . . . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 . . . . . . . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 . . . . . . . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 . . . 2 
+2 . . . . . . . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 . . . 2 
+2 . . . . . . . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 . . . 2 
+2 . . . . . . . . . . . . . . . . . . . . . . . . . 2 2 . . . 2 
+2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+2 2 2 . . . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 . . . . . . . . . . . 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
 `,
-            [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile24,myTiles.tile25,myTiles.tile26],
+            [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile24,myTiles.tile25,myTiles.tile26,myTiles.tile27,myTiles.tile28,myTiles.tile29,myTiles.tile30,myTiles.tile31],
             TileScale.Sixteen
         ))
-scene.cameraFollowSprite(mySprite)
+scene.cameraFollowSprite(frisk)
+controller.moveSprite(frisk)
+info.setLife(20)
+info.setScore(1)
+frisk.setPosition(150, 80)
+let 怪物事件 = [0]
 forever(function () {
-    if (mySprite.tileKindAt(TileDirection.Center, myTiles.tile22) || mySprite.tileKindAt(TileDirection.Center, myTiles.tile24)) {
-        game.showLongText("未完成哦（按下z重启）", DialogLayout.Bottom)
-        mySprite.setPosition(150, 80)
+    if (frisk.tileKindAt(TileDirection.Center, myTiles.tile31)) {
+        if (房间 == 1) {
+            frisk.setPosition(120, 300)
+            tiles.setTilemap(tiles.createTilemap(
+            hex`0f0013000000000000000000000000000000000000000000000001000000000000000000000000000101010000000000000000000000011b1b1b0100000000000000000000011b1b1b0100000000000000000000011b1b1b0100000000000000000001011e1e1e010100000000000000001b1b1b1b1b1b1b00000000001b1b1b1b1b1b1b1b1b1b1b1b1b00001b1b1b1b1b1b1b1b1b1b1b1b1b00001b1b1b1b1b1b1b1b1b1b1b1b1b00001b1b1b1b1b1b1b1b1b1b1b1b1b00001b1b080a0e1d041c110b091b1b00001b1b070c0f030303100d061b1b00001b1b1b1b1b1b1b1b1b1b1b1b1b00001b1b1b1b1b1b1b1b1b1b1b1b1b00001b1b1b1b1b1b1b1b1b1b1b1b1b00001b1b1b1b1b1b1b1b1b1b1b1b1b00000000000000000000000000000000`,
+            img`
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+2 2 2 2 2 2 . . . 2 2 2 2 2 2 
+2 2 2 2 2 2 . . . 2 2 2 2 2 2 
+2 2 2 2 2 2 . . . 2 2 2 2 2 2 
+2 2 2 2 2 2 . . . 2 2 2 2 2 2 
+2 2 2 . . . . . . . . . 2 2 2 
+2 . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . 2 
+2 . . . . . . . . . . . . . 2 
+2 2 2 2 . . . . . . . 2 2 2 2 
+2 2 2 2 . . . . . . . 2 2 2 2 
+2 2 2 2 . . . . . . . 2 2 2 2 
+2 2 2 2 . . . . . . . 2 2 2 2 
+2 2 2 2 2 2 2 . 2 2 2 2 2 2 2 
+`,
+            [myTiles.tile0,myTiles.tile1,myTiles.tile2,myTiles.tile3,myTiles.tile4,myTiles.tile5,myTiles.tile6,myTiles.tile7,myTiles.tile8,myTiles.tile9,myTiles.tile10,myTiles.tile11,myTiles.tile12,myTiles.tile13,myTiles.tile14,myTiles.tile15,myTiles.tile16,myTiles.tile17,myTiles.tile18,myTiles.tile19,myTiles.tile20,myTiles.tile21,myTiles.tile22,myTiles.tile24,myTiles.tile25,myTiles.tile26,myTiles.tile27,myTiles.tile28,myTiles.tile29,myTiles.tile30,myTiles.tile31],
+            TileScale.Sixteen
+        ))
+            flowey = sprites.create(img`
+. . . . . . f f f . . . f f f . . . . . . 
+. . . . . f 5 5 5 f f f 5 5 5 f . . . . . 
+. . . . f 5 5 f f 1 1 1 f f 5 5 f . . . . 
+. . f f f f f 1 1 1 1 1 1 1 f f f f f . . 
+. f 5 5 5 f 1 1 1 f 1 f 1 1 1 f 5 5 5 f . 
+f 5 5 5 5 f 1 1 1 1 1 1 1 1 1 f 5 5 5 5 f 
+. f 5 5 5 f 1 1 f 1 1 1 f 1 1 f 5 5 5 f . 
+. . f f f 5 f 1 1 f f f 1 1 f 5 f f f . . 
+. . . f 5 5 5 f 1 1 1 1 1 f 5 5 5 f . . . 
+. . f 5 5 5 5 5 f f f f f 5 5 5 5 5 f . . 
+. . f 5 5 5 5 5 5 f 7 f 5 5 5 5 5 5 f . . 
+. . . f 5 5 5 f f f 7 7 f f 5 5 5 f . . . 
+. . . . f f f . . f 7 7 f . f f f . . . . 
+. . . . . . . . f 7 7 f . . . . . . . . . 
+. . . . . . . . f 7 f . . . . . . . . . . 
+. . . . . . . . f 7 7 f . . . . . . . . . 
+. . . . . . . . . f 7 f . . . . . . . . . 
+. . . . . . . . . f 7 7 f . . . . . . . . 
+. . . . . . . . . f 7 7 f . . . . . . . . 
+. . . . . . . . f 7 7 7 f . . . . . . . . 
+. . . . . . . . . f f f . . . . . . . . . 
+`, SpriteKind.怪物)
+            flowey.setPosition(120, 190)
+            房间 += 1
+        } else {
+            game.showLongText("敬请期待", DialogLayout.Bottom)
+            game.over(true, effects.confetti)
+        }
+    }
+})
+forever(function () {
+    if (frisk.y <= 220 && 房间 == 2 && 怪物事件[0] == 0) {
+        战斗中 = 1
+        controller.moveSprite(frisk, 0, 0)
+        flowey.say("你好，我是小花")
+        pause(1000)
+        flowey.say("名字叫小花的小花")
+        pause(1000)
+        flowey.say("你一定刚来地下吧")
+        pause(1000)
+        flowey.say("你一定很困惑")
+        pause(1000)
+        flowey.say("小花不才，不得不挺身而出")
+        pause(1400)
+        flowey.say("额，没了，先这样吧。下一个版本我会跟你战斗")
+        怪物事件[0] = 1
+        战斗中 = 0
+        controller.moveSprite(frisk, 100, 100)
     }
 })
